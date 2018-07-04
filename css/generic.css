@@ -1,0 +1,52 @@
+nav {
+  background-color: #2C64B4;
+  display: inline-block;
+  height: 5vh;
+  float: left;
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  color: #FFF;
+  text-align: center;
+}
+header{
+    text-align: center;    
+    background-color:#C2BFBF;
+}
+aside{
+  background-color:rgb(255, 255, 255);
+    height:70vh;
+    float:left;
+    width:20%;
+    text-align: center;
+}
+main{
+  background-color:rgb(211, 221, 153);
+    height: 70vh;
+    float:left;
+    width:60%;
+    text-align: center;
+}
+section{ background-color:rgb(255, 255, 255);
+  height: 70vh;
+  float:right;
+  text-align: center;
+  width:20%;}
+footer{
+  clear:both;
+  background-color:#C2BFBF;
+  height:15vh;
+  text-align: center;}
