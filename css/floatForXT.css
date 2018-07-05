@@ -8,6 +8,7 @@ body {
     margin: 0;
     background: #f1f1f1;
 }
+
 .sticky {     
     width: 100%;
     position: -webkit-sticky;
@@ -15,11 +16,13 @@ body {
     background-color: #ddd;
     top: 0;
     padding: 5px;
-  } 
-  .headerMsg{
+} 
+
+.headerMsg{
     display: flex;
-  }
-  .headerMsg >div {
+}
+
+.headerMsg >div {
      flex:1;
 }  
 
@@ -28,6 +31,7 @@ nav {
     background-color: rgb(9, 7, 161);   
     overflow: hidden;
 }
+
 nav a {
     display: block;
     color: #f2f2f2;
@@ -41,36 +45,6 @@ nav a:hover {
     color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-    float: left;
-    width: 75%;
-}
-.rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
-}
-
-.leftsocialcolumn {   
-    float: left;
-    width: 20%;
-    text-align: center;
-    
-}
-.rightsocialcolumn {   
-    float: right;
-    width: 80%;
-}
-
-/* Add a card effect for articles */
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -84,12 +58,12 @@ article > div{
     flex:1;
 
 }
+
 @media (max-width: 500px) {
     article {
      flex-direction: column;
     }
   }
-
 
 .flex-container {
     display: flex;
@@ -106,14 +80,7 @@ article > div{
     line-height: 75px;
     font-size: 30px;   
   }
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn, .leftsocialcolumn, .rightsocialcolumn{   
-        width: 100%;
-        padding: 0;
-    }
-}
+  
 @media screen and (max-width: 400px) {
     .columnsplit{   
         width: 100%;
@@ -159,16 +126,27 @@ img.bg {
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
     left: 50%;
-    margin-left: -512px;   /* 50% */
   }
 }
 
+@media screen and (max-width:530px) {
+    footer {
+     flex-direction: row;
+    }
+  }
 footer {
     display: flex;
     align-content: space-around;
     justify-content: center;
+    flex-direction: row;
 }
 
 footer > div{
-    flex: 20%;
+    flex: 1;
+}
+
+.imgdislay img
+{   
+   height:45px;
+   width:40px;
 }
