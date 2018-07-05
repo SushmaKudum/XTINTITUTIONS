@@ -80,7 +80,7 @@ article > div{
     line-height: 75px;
     font-size: 30px;   
   }
-  
+
 @media screen and (max-width: 400px) {
     .columnsplit{   
         width: 100%;
@@ -149,4 +149,8 @@ footer > div{
 {   
    height:45px;
    width:40px;
+}
+p.lastText{
+    font-style: oblique;
+    font-size: 12px;
 }
